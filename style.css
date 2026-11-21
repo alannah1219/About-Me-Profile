@@ -1,0 +1,131 @@
+
+/* General webpage styling */
+body {
+    background-color: #fadadd;
+    color: #2b1b17;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f8c5ce;
+}
+
+h1 {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2b1b17;
+}
+
+header p {
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+/* Main content styling */
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+/* Section styling */
+section {
+    background-color: #fff5f5;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #d9a5ad;
+    border-radius: 10px;
+}
+
+/* Heading styling */
+h2 {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2b1b17;
+    border-bottom: 2px solid #d9a5ad;
+    padding-bottom: 0.5rem;
+}
+
+h3 {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* Body text styling */
+p, li, a {
+    font-family: 'Lato', Arial, sans-serif;
+}
+
+/* About Me photo and biography */
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    border: 1px solid #d9a5ad;
+    border-radius: 10px;
+}
+
+.about-container img {
+    width: 180px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.about-container p {
+    flex: 1;
+    font-size: 1rem;
+}
+
+/* List styling */
+li {
+    margin-bottom: 0.5rem;
+}
+
+/* Link styling */
+a {
+    color: #70404a;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+/* Mobile responsive layout */
+@media (max-width: 600px) {
+    header {
+        padding: 1.5rem 1rem;
+    }
+
+    main {
+        padding: 0.75rem;
+        margin: 1rem auto;
+    }
+
+    section {
+        padding: 1rem;
+    }
+
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-container img {
+        width: 150px;
+    }
+}
